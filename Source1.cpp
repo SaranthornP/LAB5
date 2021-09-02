@@ -16,7 +16,7 @@ int main() {
 				erase_ship(x, y);
 				draw_ship(--x, y);
 			}
-			if (ch == 'd'&&x<76)
+			if (ch == 'd'&&x<75)
 			{
 				erase_ship(x, y);
 				draw_ship(++x, y); 
